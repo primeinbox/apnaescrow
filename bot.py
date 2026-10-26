@@ -452,7 +452,7 @@ def pe(emoji):
 # ===========================
 
 
-  def calculate_fee(amount, is_exchange=False):
+def calculate_fee(amount, is_exchange=False):
     return 0.0
 # def calculate_fee(amount, is_exchange=False):
 #     if is_exchange:
