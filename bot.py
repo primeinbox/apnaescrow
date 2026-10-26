@@ -96,7 +96,7 @@ ADMIN_ALIASES = {
 }
 
 mongo_client = MongoClient(MONGO_URI) if MONGO_URI else None
-mongo_db = mongo_client["kaal_escrow_bots"] if mongo_client else None
+mongo_db = mongo_client["apna_escrow_bots"] if mongo_client else None
 coll = mongo_db["deals_kaalescrow"] if mongo_db is not None else None
 meta_coll = mongo_db["meta_kaalescrow"] if mongo_db is not None else None
 admins_coll = mongo_db["bot_admins_kaalescrow"] if mongo_db is not None else None
